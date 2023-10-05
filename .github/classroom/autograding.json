@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW11/hw11-6-fibonacci-recursion.cpp",
+      "run": "./a.out",
+      "input": "8",
+      "output": "Series = 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21\r\nSum = 54",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
